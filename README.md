@@ -10,13 +10,15 @@ Confluence-docker
 Далее произойдёт запуск образов nginx и confluence и будут подключены к образам конфигурационные файлы заранее заготовленные.
 
 Запуск скрипта
-----------------
+--------------
+
 .. code-block:: console
 
   docker-compose -f docker-compose.yaml up
 
 Запуск отдельного сервиса в скрипте
---------
+-----------------------------------
+
 .. code-block:: console
 
   docker-compose -f docker-compose.yaml up nginx &
@@ -27,7 +29,8 @@ Confluence-docker
   docker-compose -f /atlassian/docker-compose.yaml start nginx
 
 Посмотреть выполнение сервисов
---------
+------------------------------
+
 .. code-block:: console
 
   docker ps
