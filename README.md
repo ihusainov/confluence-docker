@@ -13,21 +13,21 @@ Confluence-docker
 ----------------
 .. code-block:: console
 
-docker-compose -f docker-compose.yaml up
+  docker-compose -f docker-compose.yaml up
 
 Запуск отдельного сервиса в скрипте
 --------
 .. code-block:: console
 
-docker-compose -f docker-compose.yaml up nginx &
+  docker-compose -f docker-compose.yaml up nginx &
 
 или
 
-docker-compose -f /atlassian/docker-compose.yaml stop nginx
-docker-compose -f /atlassian/docker-compose.yaml start nginx
+  docker-compose -f /atlassian/docker-compose.yaml stop nginx
+  docker-compose -f /atlassian/docker-compose.yaml start nginx
 
 Посмотреть выполнение сервисов
 --------
 .. code-block:: console
 
-docker ps
+  docker ps
