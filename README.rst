@@ -24,10 +24,12 @@ Confluence-docker
   docker-compose -f docker-compose.yaml up nginx &
 
 или
-----
+
+.. code-block:: console
 
   docker-compose -f /atlassian/docker-compose.yaml stop nginx
   docker-compose -f /atlassian/docker-compose.yaml start nginx
+
 
 Посмотреть выполнение сервисов
 ------------------------------
