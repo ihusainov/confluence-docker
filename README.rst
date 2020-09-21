@@ -24,6 +24,7 @@ Confluence-docker
   docker-compose -f docker-compose.yaml up nginx &
 
 или
+----
 
   docker-compose -f /atlassian/docker-compose.yaml stop nginx
   docker-compose -f /atlassian/docker-compose.yaml start nginx
